@@ -17,10 +17,17 @@ What variable(s) are considered to be the features for your model?
 What variable(s) are neither targets nor features, and should be removed from the input data?
 - Variables NAME, STATUS, and ASK_AMT should be removed from the input data.
 
-Compiling, Training, and Evaluating the Model
+#### Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 - There were 5 hidden layers used to provide the highes accurary percentage (0.7371). The first hidden layer has 20 nodes, the seconds hidden layer has 15 nodes, the third hidden layer has 10 nodes, the fourth hidden layer has 5 nodes, and the fifth hidden layer has 1 node. Also, the activation function is sigmoid and epochs is set to 10. There was multiple tests to find what provided the highest accurary percentage. After reducing the noise, using 5 hidden layers, distributing neurons amongst the 5 layers, using sigmoid, and increasing epochs to 10 the highest accuracy percentage acheived is 0.737. It did not meet the target model performance but it did improve from the previous highest accuracy percentage 0.72.
+
+##### Hidden Layers and Nodes
+![img2](.images/img2.png)
+
+##### Accuracy Percentage
+![img3](.images/img3.png)
+
 
 ## Summary:
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
