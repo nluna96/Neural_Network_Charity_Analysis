@@ -6,7 +6,7 @@ The purpose of the analysis is to help the Alphabet Soup's business team predict
 ## Results: 
 #### Target
 - The variable IS_SUCCESSFUL was used at the target for the model.
-- 
+
 #### Features
 - Variables APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, and SPECIAL_CONSIDERATIONS were used as the features for the model.
 - Variables NAME, STATUS, and ASK_AMT should be removed from the input data.
@@ -23,3 +23,5 @@ The purpose of the analysis is to help the Alphabet Soup's business team predict
 
 ## Summary:
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+Using the instructions from Deliverable 1 and 2 a maximum accuracy of 0.72 was achieved. After making changes to data, adding hidden layers, distributing neurons, and increasing epochs, the accuracy increased to 0.737. The accuracy did not meet the target model performace however, it did improve and any improvement in accuracy is a positive.
